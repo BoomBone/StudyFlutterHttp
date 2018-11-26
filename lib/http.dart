@@ -67,6 +67,7 @@ class NetUtil {
 
       if (callBack != null) {
         print("<response> :"+response.data["data"].toString());
+        //此处为返回值
         callBack(response.data["data"]);
       }
     } catch (exception) {
